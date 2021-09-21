@@ -2,11 +2,9 @@ pipeline {
     agent any
 
     stages {
-        stage('Build') {
+        stage('Hello') {
             steps {
-                git branch: 'main'
-                echo "Build App"
-                
+                echo 'Hello World'
             }
         }
     }
